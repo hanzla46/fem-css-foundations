@@ -1,0 +1,11 @@
+@import './base.css';
+
+.main_heading {
+  font-size: 80px;
+  color: #fdf7f7;
+}
+.main_subheading {
+  font-size: 40px;
+  color: #fdf7f7;
+  margin: 20px 0 20px 0;
+}

@@ -1,0 +1,38 @@
+@import "./base.css";
+.main_title {
+  font-size: 78px;
+}
+.speakers_container {
+  width: 350px;
+}
+.speakers_img {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  margin: 0 auto 12px auto;
+}
+.theimg {
+  object-position: top;
+}
+
+.speakers_name {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.speakers_company {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 7px;
+}
+.speakers_bio {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+.all_speakers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
